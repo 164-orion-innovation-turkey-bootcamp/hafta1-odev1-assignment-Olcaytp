@@ -1,11 +1,11 @@
 //Bir sayı dizisi ve hedef değeri veriliyor. Toplamı, hedefe eşit olan ikililerin indexlerini dönen fonksiyonu yazınız.
 
 //Örnek Dizilerimiz
-const example1Array = [2, 7, 11, 15];
+const nums1Array = [2, 7, 11, 15];
 const target1 = 9;
-const example2Array = [3, 2, 4];
+const nums2Array = [3, 2, 4];
 const target2 = 6;
-const example3Array = [3, 3];
+const nums3Array = [3, 3];
 const target3 = 6;
 
 function findresult(arr, target) {
@@ -23,9 +23,9 @@ function findresult(arr, target) {
 }
 //date.now() kullanılarak execution time hesaplanmıştır.
 let start = Date.now();
-console.log(findresult(example1Array, target1));
-console.log(findresult(example2Array, target2));
-console.log(findresult(example3Array, target3));
+console.log(findresult(nums1Array, target1));
+console.log(findresult(nums2Array, target2));
+console.log(findresult(nums3Array, target3));
 let end = Date.now();
 // execution time = 9ms
 console.log(`Execution time: ${end - start} ms`);
